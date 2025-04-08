@@ -3,9 +3,20 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* 新增东方大楷字体定义 */
+@font-face {
+    font-family: 'AlimamaDongFangDaKai';
+    src: url('../fonts/AlimamaDongFangDaKai-Regular.woff2') format('woff2'),
+         url('../fonts/AlimamaDongFangDaKai-Regular.woff') format('woff'),
+         url('../fonts/AlimamaDongFangDaKai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 避免文字闪烁 */
+}
+
 body {
 	color: rgba(0, 0, 0, 0.5);
-	font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
+	font-family: 'AlimamaDongFangDaKai','PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
 	font-size: 15px;
 	width: 100%;
 	margin: 0 auto 30px auto;
@@ -13,6 +24,7 @@ body {
 
 }
 p {
+	font-family: 'AlimamaDongFangDaKai', serif;
 	line-height: 1.9em;
 	font-weight: 400;
 	font-size: 14px;
@@ -128,12 +140,12 @@ a:hover, a:active {
 .content {
 	height: auto;
 	float: right;
-	width: 60%;
+	width: 70%;
 	margin-top:60px;
 }
 
 .page-top{
-	width: 60%;
+	width: 70%;
 	position: fixed;
 	right: 0;
 	z-index: 3;
@@ -193,7 +205,7 @@ a:hover, a:active {
 
 }
 .sidebar {
-	width: 40%;
+	width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: #fff;
