@@ -128,7 +128,9 @@ a:hover, a:active {
   list-style: none;
   padding: 18px 30px;
   float: left;
-  font-size: 12px;
+  font-family: 'AlimamaDongFangDaKai', sans-serif;
+  font-size:16px;
+  font-weight:bold;
 }
 .page-top .nav li {
   position: relative;
@@ -182,6 +184,8 @@ a:hover, a:active {
   position: fixed;
   z-index: 4;
   border-right: 1px solid #f2f2f2;
+  /*background-image: linear-gradient(90deg, #90F9C4 0%,#DFFFCD   48%, #FFFFFF 100%);*/
+
 }
 .sidebar .logo-title {
   text-align: center;
