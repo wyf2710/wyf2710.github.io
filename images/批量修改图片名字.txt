@@ -1,0 +1,5 @@
+$i=1
+Get-ChildItem "D:\桌面1\Python\Data\pythonProject\myblog\source\images\s*.jpg" | ForEach-Object {
+    $newName = "scgy{0:d2}{1}" -f $i++, $_.Extension
+    Rename-Item $_ -NewName $newName 
+}
