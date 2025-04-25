@@ -123,8 +123,12 @@ a:hover, a:active {
   background-color: #fff;
   height: 60px;
   border-bottom: 1px solid #f2f2f2;
+  background: url('../images/nav条.png') repeat center center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .page-top .nav {
+  color: #e2f7ff;
   list-style: none;
   padding: 18px 30px;
   float: left;
@@ -138,13 +142,13 @@ a:hover, a:active {
   padding-right: 20px;
 }
 .page-top .nav a {
-  color: #5A5A5A;
+  color: #ffffff;
 }
 .page-top .nav a:hover {
-  color: #4786D6;
+  color: #abcfff;
 }
 .page-top .nav a.current {
-  color: #5A5A5A;
+  color: #ffffff;
   padding-bottom: 22px;
   border-bottom: 1px solid #5A5A5A;
 }
