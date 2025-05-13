@@ -6,13 +6,13 @@
 });</script></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h1><a>解读数据01</a></h1></div><div class="post-content"><p>【来源链接】：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/595273755">统计思维系列课程01：解读数据 - 知乎</a></p>
 <h1 id="解读数据：看懂数据"><a href="#解读数据：看懂数据" class="headerlink" title="解读数据：看懂数据"></a>解读数据：看懂数据</h1><p>统计的本质就是从原始的数据中找出重要的有用的信息，我们在数据分析中经常提到的“指标”一词，指的就是具备业务意义的统计数据。统计学中的<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1&zhida_source=entity">描述性统计</a>，是指运用分类、制表、绘图、概括性计算等操作来描述数据的各项特征，通常是针对所有数据而不是部分数据进行的操作，主要包括数据的<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E9%A2%91%E6%95%B0%E5%88%86%E6%9E%90&zhida_source=entity">频数分析</a>、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E9%9B%86%E4%B8%AD%E8%B6%8B%E5%8A%BF%E5%88%86%E6%9E%90&zhida_source=entity">集中趋势分析</a>、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E7%A6%BB%E6%95%A3%E7%A8%8B%E5%BA%A6%E5%88%86%E6%9E%90&zhida_source=entity">离散程度分析</a>以及一些基本统计图表的绘制。</p>
 <h3 id="数据和数据的分类"><a href="#数据和数据的分类" class="headerlink" title="数据和数据的分类"></a><strong>数据和数据的分类</strong></h3><p>在统计学中，通过试验、观察、调查等获得的材料被称为数据。首先数据不止是整数和小数，日期、时间、文本、图像、声音、视频都可以是数据；其次数据并不是简单的几个记录值，它通常还需要具备来源、量纲、单位以及业务意义等相关信息。我们大致可以把数据分为定性数据和<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%AE%9A%E9%87%8F%E6%95%B0%E6%8D%AE&zhida_source=entity">定量数据</a>，其中定性数据按照计量特征又可以细分为<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%AE%9A%E7%B1%BB%E5%B0%BA%E5%BA%A6&zhida_source=entity">定类尺度</a>和<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%AE%9A%E5%BA%8F%E5%B0%BA%E5%BA%A6&zhida_source=entity">定序尺度</a>，定量数据也可以细分为<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%AE%9A%E8%B7%9D%E5%B0%BA%E5%BA%A6&zhida_source=entity">定距尺度</a>和<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%AE%9A%E6%AF%94%E5%B0%BA%E5%BA%A6&zhida_source=entity">定比尺度</a>，如下表所示。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509190556735.png" alt="image-20250509190556735"></p>
+<p><img src="/./../images/image-20250509190556735.png" alt="image-20250509190556735"></p>
 <p>对于定性数据的呈现，我们可以使用<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E9%A2%91%E6%95%B0%E5%88%86%E5%B8%83%E8%A1%A8&zhida_source=entity">频数分布表</a>（frequency distribution table）、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E6%9F%B1%E7%8A%B6%E5%9B%BE&zhida_source=entity">柱状图</a>（bar chart）、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E9%A5%BC%E5%9B%BE&zhida_source=entity">饼图</a>（pie chart）、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%B8%95%E7%B4%AF%E6%89%98%E5%9B%BE&zhida_source=entity">帕累托图</a>（Pareto diagram）等方式，如下图所示。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509190734788.png" alt="image-20250509190734788"></p>
+<p><img src="/./../images/image-20250509190734788.png" alt="image-20250509190734788"></p>
 <p>对于定量数据的呈现，如果想了解数据的分布，可以先对数据进行分箱。所谓分箱其实就是对连续数据的离散化，将连续的数据根据其取值放到不同的分组中，以此为基础，我们就可以绘制出<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E7%9B%B4%E6%96%B9%E5%9B%BE&zhida_source=entity">直方图</a>（histogram），如下所示。该图展示了在2012年，澳大利亚死亡人口中不同年龄段的死亡人数及其占比。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509190819244.png" alt="image-20250509190819244"></p>
+<p><img src="/./../images/image-20250509190819244.png" alt="image-20250509190819244"></p>
 <p>如果想了解两组数据之间的关系，我们可以使用<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E6%95%A3%E7%82%B9%E5%9B%BE&zhida_source=entity">散点图</a>（scatter diagram），如下所示。散点图可以帮助我们理解数据之间的相关性，而对于相关性的探索是数字化运营中帮助我们找到运营抓手的关键。我们也可以通过<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0&zhida_source=entity">相关系数</a>（correlation）来了解数据之间的相关性，后面会有专门的章节对这个知识进行介绍，这个对于数据分析师来说是非常重要。包括我们在使用机器学习的算法解决业务问题时，我们关注得更多的不是特征到标签之间的因果逻辑，而是他们之间的相关关系。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509190926221.png" alt="image-20250509190926221"></p>
+<p><img src="/./../images/image-20250509190926221.png" alt="image-20250509190926221"></p>
 <hr>
 <h3 id="数据的集中趋势"><a href="#数据的集中趋势" class="headerlink" title="数据的集中趋势"></a>数据的集中趋势</h3><p>统计学中，数据的集中趋势指的是一组数据向某一中心靠拢的程度，它反映了一组数据中心点的位置。我们通常会使用<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%9D%87%E5%80%BC&zhida_source=entity">均值</a>、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E4%B8%AD%E4%BD%8D%E6%95%B0&zhida_source=entity">中位数</a>和<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E4%BC%97%E6%95%B0&zhida_source=entity">众数</a>来度量数据的集中趋势。</p>
 <p><strong>1.均值</strong></p>
@@ -32,7 +32,7 @@
 </blockquote>
 <hr>
 <p><strong>几何平均值</strong>，例如计算不同渠道的平均转化率、不同客群的平均留存率、不同品类的平均付费率等，就可以使用几何平均值，计算公式如下所示：</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509213701228.png" alt="image-20250509213701228"></p>
+<p><img src="/./../images/image-20250509213701228.png" alt="image-20250509213701228"></p>
 <blockquote>
 <ul>
 <li><p>计算投资平均收益率、人口增长率。</p>
@@ -42,7 +42,7 @@
 </ul>
 </blockquote>
 <p><strong>调和平均值</strong>：调和平均值在处理速率或比率问题时，比其他平均值更有意义，典型场景包括平均速度、平均工作时间、单位成本等。机器学习中的F1评分，就是准确率和召回的调和平均数；财经领域，加权调和平均数可以用于计算组合投资多个股票的市盈率，计算公式如下所示:</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509213736530.png" alt="image-20250509213736530"></p>
+<p><img src="/./../images/image-20250509213736530.png" alt="image-20250509213736530"></p>
 <blockquote>
 <ul>
 <li><p>计算平均速度、并联电阻的等效电阻。</p>
@@ -57,7 +57,7 @@
 <blockquote>
 <p><strong>加权平均值（Weighted Mean）</strong></p>
 <p><strong>定义</strong>:考虑不同数据的重要性（权重），计算方式为：</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250509222131871.png" alt="image-20250509222131871"></p>
+<p><img src="/./../images/image-20250509222131871.png" alt="image-20250509222131871"></p>
 <h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a><strong>性质</strong></h3><ul>
 <li><strong>适用于不同数据贡献不同的情况</strong>（如 GPA 计算）。</li>
 <li><strong>如果所有权重相等，退化为算术平均</strong>。</li>
@@ -135,7 +135,7 @@
 <p><strong>3.<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E5%9B%9B%E5%88%86%E4%BD%8D%E8%B7%9D%E7%A6%BB&zhida_source=entity">四分位距离</a></strong></p>
 <p>四分位距离（<em>inter-quartile range</em>）是一组数据上四分位数和下四分位数之差，通常记为 IQR 。四分位距离越小，说明数据中间50%的数据越集中；反之四分位距离越大，说明数据中间50%的数据越分散。四分位距离不受极端值的影响，它的大小很好的反映了中位数对一组数据的代表程度。</p>
 <p><strong>4.<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=220416253&content_type=Article&match_order=1&q=%E6%96%B9%E5%B7%AE&zhida_source=entity">方差</a></strong><br>方差（<em>variance</em>）是将数据集中的每个值与均值的偏差进行平方，然后除以总数据量得到的值。简单来说就是表示数据与期望值的偏离程度。方差越大，就意味着数据越不稳定、波动越剧烈，也就是说数据整体比较分散，呈现出离散的趋势；而方差越小，意味着数据越稳定、波动越平滑，也就是说代表着数据整体比较集中。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250510221005595.png" alt="image-20250510221005595"></p>
+<p><img src="/./../images/image-20250510221005595.png" alt="image-20250510221005595"></p>
 <blockquote>
 <p><strong>说明</strong>：<strong>总体</strong>（<em>population</em>）指的是被研究对象的全体，是包含所研究对象全部个体的集合；<strong>样本</strong>（<em>sample</em>）是总体的一个子集，即从总体中抽取出一部分元素构成的集合。总体中全部个体的数量通常记为 N ，而样本中个体的数量通常记为 n ，也称为<strong>样本容量</strong>。大家可以看看总体方差和样本方差计算公式的差别，然后思考一下为什么会有这样的差别，这里会涉及到统计学中一个叫做“自由度”（<em>degree of freedom</em>）的重要概念，简单的说，自由度表示了<strong>取值不受限制的变量个数</strong>。</p>
 </blockquote>
@@ -196,22 +196,22 @@
 </tr>
 </tbody></table>
 <p>我们可以利用直方图来查看数据分布的形态，对数据分布形态的测度主要以正态分布为标准进行衡量，正态分布在坐标轴上的形状是一个铃铛型（钟型），正态曲线以均值为中心左右对称，如下图所示。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250510223019278.png" alt="image-20250510223019278"></p>
+<p><img src="/./../images/image-20250510223019278.png" alt="image-20250510223019278"></p>
 <p>在 Excel 中，我们可以将上面的学生考试成绩绘制成如下所示的柱状图，可以看出数据呈现出正态分布的轮廓，这说明考试题没有特别简单，也没有特别难，能够有效的反馈学生的学习效果。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250510223054803.png" alt="image-20250510223054803"></p>
+<p><img src="/./../images/image-20250510223054803.png" alt="image-20250510223054803"></p>
 </blockquote>
 <h3 id="偏态和峰度"><a href="#偏态和峰度" class="headerlink" title="偏态和峰度"></a>偏态和峰度</h3><p>如果我们在直方图上再拟合出一条曲线与正态曲线进行比较，比较的重点是曲线的尖峭程度和对称性，我们可以将其称之为峰度和偏态。<strong>数据分布的不对称性称为偏态</strong>，偏态又分为<strong>正偏（positive skew）</strong>或<strong>负偏（negative skew）</strong>两种。在正态分布的情况下，均值、中位数、众数应该都在对称轴的位置，如果众数和中位数在左边，均值在右边，那么数据的极端值也在右边，数据分布曲线向右延伸，就是我们说的正偏（右偏）；如果均值在左边，中位数和众数在右边，那么数据的极端值在左边，数据分布曲线向左延伸，就是我们说的负偏（左偏），如下图所示。</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250512175236391.png" alt="image-20250512175236391"></p>
+<p><img src="/./../images/image-20250512175236391.png" alt="image-20250512175236391"></p>
 <p>测定偏态的指标是偏态系数，Excel 中计算偏态系数的函数是<code>SKEW</code>，对应的公式如下所示：</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250512175258543.png" alt="image-20250512175258543"></p>
+<p><img src="/./../images/image-20250512175258543.png" alt="image-20250512175258543"></p>
 <p>峰度是指数据分布的尖峭程度，一般可以表现为尖顶峰度、平顶峰度和标准峰度（正态分布的峰度）。测定峰度的指标是峰度系数，Excel 中计算峰度系数的函数是<code>KURT</code>，对应的公式如下所示：</p>
-<p><img src="C:\Users\wyf\AppData\Roaming\Typora\typora-user-images\image-20250512175326549.png" alt="image-20250512175326549"></p>
+<p><img src="/./../images/image-20250512175326549.png" alt="image-20250512175326549"></p>
 <blockquote>
 <p>对于上面的学生考试成绩，偏态系数为0.00436，说明数据没有明显的左偏（分数偏高的学生更多）或右偏（分数偏低的学生更多），峰度系数为0.069634，说明学生成绩分布跟正态分布轮廓基本是吻合的。大家也可以回头看看之前澳大利亚死亡人口分布的直方图，看看数据是左偏还是右偏以及均值、中位数和众数之间的位置关系。</p>
 </blockquote>
 <p><strong>说明</strong>：在 Python 中，可以使用三方库 pandas 中<code>Series</code>或<code>DataFrame</code>对象的<code>skew()</code>方法来计算偏态系数，<code>Series</code>或<code>DataFrame</code>对象的<code>kurt()</code>方法可以计算峰度系数。另一个名为 scipy 的三方库中，<code>stats</code>模块也提供了名为<code>skew()</code>和<code>kurtosis()</code>的函数，分别用于计算偏态系数和峰度系数。</p>
 <h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>描述性统计通常用于研究表象，将现象用数据的方式描述出来（用全部的数据来描述整体的特征）；后面我们要讲的推断性统计通常用于通过现象推测本质（用样本数据的特征去推断总体数据特征），也就是你看到的表象有多大概率符合你对隐藏在表象后的本质的猜测。</p>
-</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2025-05-12</span><i class="fa fa-tag"></i><a class="tag" href="/categories/python/" title="python">python </a><a class="tag" href="/tags/excel/" title="excel">excel </a><a class="tag" href="/tags/python/" title="python">python </a><a class="tag" href="/tags/Data/" title="Data">Data </a><i class="fa fa-eye"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span></span></i></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2025/05/12/0512 解读数据01/,伍攀.blog,解读数据01,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2025/05/12/0512%20%E8%A7%A3%E8%AF%BB%E6%95%B0%E6%8D%AE00/" title="解读数据00">下一篇</a></li></ul></div><div id="utter"></div><script>document.addEventListener('DOMContentLoaded', function() {
+</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2025-05-12</span><i class="fa fa-tag"></i><a class="tag" href="/categories/python/" title="python">python </a><a class="tag" href="/tags/excel/" title="excel">excel </a><a class="tag" href="/tags/python/" title="python">python </a><a class="tag" href="/tags/Data/" title="Data">Data </a><i class="fa fa-eye"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span></span></i></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2025/05/12/0512 解读数据01/,伍攀.blog,解读数据01,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="pre pagbuttons"><a class="btn" role="navigation" href="/2025/05/12/0512%20%E8%A7%A3%E8%AF%BB%E6%95%B0%E6%8D%AE00/" title="解读数据00">上一篇</a></li><li class="next pagbuttons"><a class="btn" role="navigation" href="/2025/05/12/0512%20%E5%A2%99/" title="墙">下一篇</a></li></ul></div><div id="utter"></div><script>document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('utter');
   if (!container) {
     console.error('Error: #utter container not found');
