@@ -1,20 +1,20 @@
 <!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>win10右键添加文件项 · 伍攀.blog</title><meta name="description" content="在Windows 10中，你可以通过修改注册表来在右键菜单中添加新的文件类型。以下是如何操作的步骤（以Typora+md文件为例）：
-1. 打开注册表编辑器
+¶1. 打开注册表编辑器
 
 按下 Win + R，输入 regedit，然后按下 Enter。
 如果弹出用户帐户控制（UAC）提示，点击“是”继续。
 
-2. 创建新的文"><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 7.3.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">伍攀.blog</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"><span>孩儿立志出乡关，学不成名誓不还。</span></a><span>—— blog for</span><a target="_blank" rel="noopener" href="https://github.com/wyf2710"> 伍攀</a><div class="by_farbox"></div><span>2025 © 伍攀. All rights reserved.</span><div class="powered-by"><span>Powered by</span><a href="https://hexo.io/zh-cn/" target="_blank"> Hexo</a><span>and</span><a href="https://pages.github.com/" target="_blank">Github Pages</a><span>, Theme by</span><a target="_blank" rel="noopener" href="https://www.caicai.me"> CaiCai</a><span>&</span><a target="_blank" rel="noopener" href="https://github.com/Ben02/hexo-theme-Anatole"> Ben</a></div><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span><span> 次</span></span><span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span><span> 人</span></span></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/about">关于</a></li><li><a href="/archives">归档</a></li><li><a href="/links">友链</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div><div class="avatar"><img src="/images/logo.png"></div></div><div class="progress-bar" style="height: 3px; background: #3498db; width: 0%;"><script>window.addEventListener('scroll', function () {
+¶2. 创建新"><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 7.3.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">伍攀.blog</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"><span>孩儿立志出乡关，学不成名誓不还。</span></a><span>—— blog for</span><a target="_blank" rel="noopener" href="https://github.com/wyf2710"> 伍攀</a><div class="by_farbox"></div><span>2025 © 伍攀. All rights reserved.</span><div class="powered-by"><span>Powered by</span><a href="https://hexo.io/zh-cn/" target="_blank"> Hexo</a><span>and</span><a href="https://pages.github.com/" target="_blank">Github Pages</a><span>, Theme by</span><a target="_blank" rel="noopener" href="https://www.caicai.me"> CaiCai</a><span>&</span><a target="_blank" rel="noopener" href="https://github.com/Ben02/hexo-theme-Anatole"> Ben</a></div><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span><span> 次</span></span><span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span><span> 人</span></span></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/about">关于</a></li><li><a href="/archives">归档</a></li><li><a href="/links">友链</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div><div class="avatar"><img src="/images/logo.png"></div></div><div class="progress-bar" style="height: 3px; background: #3498db; width: 0%;"><script>window.addEventListener('scroll', function () {
   const bar = document.querySelector('.progress-bar');
   const height = document.documentElement.scrollHeight - window.innerHeight;
   bar.style.width = (window.scrollY / height) * 100 + '%';
 });</script></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h1><a>win10右键添加文件项</a></h1></div><div class="post-content"><p>在Windows 10中，你可以通过修改注册表来在右键菜单中添加新的文件类型。以下是如何操作的步骤（以Typora+md文件为例）：</p>
-<h3 id="1-打开注册表编辑器">1. 打开注册表编辑器</h3>
+<h3 id="1-打开注册表编辑器"><a class="header-anchor" href="#1-打开注册表编辑器">¶</a>1. 打开注册表编辑器</h3>
 <ol>
 <li>按下 <code>Win + R</code>，输入 <code>regedit</code>，然后按下 <code>Enter</code>。</li>
 <li>如果弹出用户帐户控制（UAC）提示，点击“是”继续。</li>
 </ol>
-<h3 id="2-创建新的文件类型">2. 创建新的文件类型</h3>
+<h3 id="2-创建新的文件类型"><a class="header-anchor" href="#2-创建新的文件类型">¶</a>2. 创建新的文件类型</h3>
 <ol>
 <li>
 <p>在注册表编辑器中，导航到以下路径：</p>
@@ -31,7 +31,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">notepad.exe C:\path\to\your\directory\newfile.txt</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="3-自定义图标（可选）">3. 自定义图标（可选）</h3>
+<h3 id="3-自定义图标（可选）"><a class="header-anchor" href="#3-自定义图标（可选）">¶</a>3. 自定义图标（可选）</h3>
 <p>你也可以为你的新文件类型指定一个图标：</p>
 <ol>
 <li>
@@ -42,9 +42,9 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\path\to\icon.ico</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="4-完成">4. 完成</h3>
+<h3 id="4-完成"><a class="header-anchor" href="#4-完成">¶</a>4. 完成</h3>
 <p>完成这些步骤后，你就会在右键菜单中看到你创建的选项了。通过点击它，你可以快速创建你需要的文件类型。</p>
-<h3 id="注意事项：">注意事项：</h3>
+<h3 id="注意事项："><a class="header-anchor" href="#注意事项：">¶</a>注意事项：</h3>
 <ul>
 <li>在编辑注册表时，务必小心，因为错误的修改可能导致系统不稳定。建议在修改之前备份注册表。</li>
 <li>如果你不熟悉命令行或注册表操作，也可以使用一些第三方工具来简化这一过程，例如 <strong>Right Click Enhancer</strong> 或 <strong>Easy Context Menu</strong>。</li>
