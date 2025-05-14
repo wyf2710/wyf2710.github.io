@@ -1,91 +1,80 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>运用hexo和github pages 搭建这个博客 · 伍攀.blog</title><meta name="description" content="¶前言
-对于程序员而言，搭建个人博客平台具有重要意义。首先，博客可以记录自己的成长历程，成为学习和工作的总结与沉淀。其次，通过博客可以提升个人品牌，增强在互联网或行业内的影响力，为未来的职业发展奠定坚实的基础。
-本文将介绍如何使用hexo和github pages搭建个人博客，并详细阐述搭建过程中的"><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 7.3.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">伍攀.blog</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"><span>孩儿立志出乡关，学不成名誓不还。</span></a><span>—— blog for</span><a target="_blank" rel="noopener" href="https://github.com/wyf2710"> 伍攀</a><div class="by_farbox"></div><span>2025 © 伍攀. All rights reserved.</span><div class="powered-by"><span>Powered by</span><a href="https://hexo.io/zh-cn/" target="_blank"> Hexo</a><span>and</span><a href="https://pages.github.com/" target="_blank">Github Pages</a><span>, Theme by</span><a target="_blank" rel="noopener" href="https://www.caicai.me"> CaiCai</a><span>&</span><a target="_blank" rel="noopener" href="https://github.com/Ben02/hexo-theme-Anatole"> Ben</a></div><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span><span> 次</span></span><span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span><span> 人</span></span></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/about">关于</a></li><li><a href="/archives">归档</a></li><li><a href="/links">友链</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div><div class="avatar"><img src="/images/logo.png"></div></div><div class="progress-bar" style="height: 3px; background: #3498db; width: 0%;"><script>window.addEventListener('scroll', function () {
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>运用hexo和github pages 搭建这个博客 · 伍攀.blog</title><meta name="description" content="前言对于程序员而言，搭建个人博客平台具有重要意义。首先，博客可以记录自己的成长历程，成为学习和工作的总结与沉淀。其次，通过博客可以提升个人品牌，增强在互联网或行业内的影响力，为未来的职业发展奠定坚实的基础。
+本文将介绍如何使用hexo和github pages搭建个人博客，并详细阐述搭建过程中的一些"><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">伍攀.blog</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"><span>孩儿立志出乡关，学不成名誓不还。</span></a><span>—— blog for</span><a target="_blank" rel="noopener" href="https://github.com/wyf2710"> 伍攀</a><div class="by_farbox"></div><span>2025 © 伍攀. All rights reserved.</span><div class="powered-by"><span>Powered by</span><a href="https://hexo.io/zh-cn/" target="_blank"> Hexo</a><span>and</span><a href="https://pages.github.com/" target="_blank">Github Pages</a><span>, Theme by</span><a target="_blank" rel="noopener" href="https://www.caicai.me"> CaiCai</a><span>&</span><a target="_blank" rel="noopener" href="https://github.com/Ben02/hexo-theme-Anatole"> Ben</a></div><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span><span> 次</span></span><span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span><span> 人</span></span><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false} ] });"></script></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/about">关于</a></li><li><a href="/archives">归档</a></li><li><a href="/links">友链</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div><div class="avatar"><img src="/images/logo.png"></div></div><div class="progress-bar" style="height: 3px; background: #3498db; width: 0%;"><script>window.addEventListener('scroll', function () {
   const bar = document.querySelector('.progress-bar');
   const height = document.documentElement.scrollHeight - window.innerHeight;
   bar.style.width = (window.scrollY / height) * 100 + '%';
-});</script></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h1><a>运用hexo和github pages 搭建这个博客</a></h1></div><div class="post-content"><h2 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h2>
-<p>对于程序员而言，搭建个人博客平台具有重要意义。首先，博客可以记录自己的成长历程，成为学习和工作的总结与沉淀。其次，通过博客可以提升个人品牌，增强在互联网或行业内的影响力，为未来的职业发展奠定坚实的基础。</p>
+});</script></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h1><a>运用hexo和github pages 搭建这个博客</a></h1></div><div class="post-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>对于程序员而言，搭建个人博客平台具有重要意义。首先，博客可以记录自己的成长历程，成为学习和工作的总结与沉淀。其次，通过博客可以提升个人品牌，增强在互联网或行业内的影响力，为未来的职业发展奠定坚实的基础。</p>
 <p>本文将介绍如何使用hexo和github pages搭建个人博客，并详细阐述搭建过程中的一些注意事项。</p>
 <span id="more"></span>
-<h2 id="什么是hexo"><a class="header-anchor" href="#什么是hexo">¶</a>什么是hexo</h2>
-<p>Hexo是一个快速、简洁且高效的博客框架，它能够将<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-hans/Markdown">Markdown格式</a>的文档渲染成漂亮的网页，这样我们就可以在很短的时间内迅速的创建出网站的静态内容，而Markdown格式对程序员来说相信并不陌生。要想使用Hexo来搭建自己的博客，我实在想不出有什么教程比<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官方文档</a>更好，强烈建议大家阅读官方文档来了解Hexo。</p>
+
+<h2 id="什么是hexo"><a href="#什么是hexo" class="headerlink" title="什么是hexo"></a>什么是hexo</h2><p>Hexo是一个快速、简洁且高效的博客框架，它能够将<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-hans/Markdown">Markdown格式</a>的文档渲染成漂亮的网页，这样我们就可以在很短的时间内迅速的创建出网站的静态内容，而Markdown格式对程序员来说相信并不陌生。要想使用Hexo来搭建自己的博客，我实在想不出有什么教程比<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官方文档</a>更好，强烈建议大家阅读官方文档来了解Hexo。</p>
 <blockquote>
 <p>说明：<strong>Markdown</strong>是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，同时也对图片、图表、数学公式提供了支持，可以用来书写电子书、软件文档等，同时也可以非常方便的转换为HTML页面或者是PDF文档。</p>
 </blockquote>
-<h2 id="什么是github-pages"><a class="header-anchor" href="#什么是github-pages">¶</a>什么是github pages</h2>
-<p>Github Pages是一个静态页面托管服务，它可以帮助你快速的搭建个人博客，而且免费。Github Pages的域名格式为：<a target="_blank" rel="noopener" href="http://username.github.io">http://username.github.io</a>。</p>
-<h2 id="准备工作"><a class="header-anchor" href="#准备工作">¶</a>准备工作</h2>
-<h3 id="安装环境"><a class="header-anchor" href="#安装环境">¶</a>安装环境</h3>
-<p>首先得确保计算机上已经安装了<a target="_blank" rel="noopener" href="https://nodejs.org/en/">node.js</a>环境和<a target="_blank" rel="noopener" href="https://git-scm.com/">git</a>环境，前者是一个能够在服务器端运行JavaScript代码的环境，后者是版本控制工具。 安装node.js主要是为了使用它的包管理工具npm，所以不需要先系统的学习node.js的知识；而安装git是为了利用版本控制系统克隆代码已经将博客项目托管到三方平台。</p>
+<h2 id="什么是github-pages"><a href="#什么是github-pages" class="headerlink" title="什么是github pages"></a>什么是github pages</h2><p>Github Pages是一个静态页面托管服务，它可以帮助你快速的搭建个人博客，而且免费。Github Pages的域名格式为：<a target="_blank" rel="noopener" href="http://username.github.io./">http://username.github.io。</a></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h3><p>首先得确保计算机上已经安装了<a target="_blank" rel="noopener" href="https://nodejs.org/en/">node.js</a>环境和<a target="_blank" rel="noopener" href="https://git-scm.com/">git</a>环境，前者是一个能够在服务器端运行JavaScript代码的环境，后者是版本控制工具。 安装node.js主要是为了使用它的包管理工具npm，所以不需要先系统的学习node.js的知识；而安装git是为了利用版本控制系统克隆代码已经将博客项目托管到三方平台。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">node --version </span><br><span class="line">git --version</span><br><span class="line">npm --version</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果以上命令都输出版本号，说明安装成功</span></span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>如果你还没有安装node.js，可以到<a target="_blank" rel="noopener" href="https://nodejs.org/en/">node.js官网</a>下载安装包安装。<br>
-如果你还没有安装git，可以到<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">git官网</a>下载安装包安装。</p>
+<p>如果你还没有安装node.js，可以到<a target="_blank" rel="noopener" href="https://nodejs.org/en/">node.js官网</a>下载安装包安装。<br>如果你还没有安装git，可以到<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">git官网</a>下载安装包安装。</p>
 </blockquote>
-<h3 id="注册github账号"><a class="header-anchor" href="#注册github账号">¶</a>注册github账号</h3>
-<ol>
+<h3 id="注册github账号"><a href="#注册github账号" class="headerlink" title="注册github账号"></a>注册github账号</h3><ol>
 <li>注册github账号，并登录：<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a>。</li>
-<li>创建一个仓库，仓库名称为：<a target="_blank" rel="noopener" href="http://yourusername.github.io">yourusername.github.io</a>，其中yourusername为你的github账号名。</li>
+<li>创建一个仓库，仓库名称为：yourusername.github.io，其中yourusername为你的github账号名。</li>
 <li>记住你的仓库地址(后续会用到)：<a target="_blank" rel="noopener" href="https://github.com/yourusername/yourusername.github.io.git">https://github.com/yourusername/yourusername.github.io.git</a>。</li>
 </ol>
-<h2 id="安装hexo"><a class="header-anchor" href="#安装hexo">¶</a>安装hexo</h2>
-<p>我们可以使用npm来安装Hexo，npm是node.js的包管理工具，跟Python的pip工具作用一样，可以用它来安装依赖库和三方工具。在第一次使用npm的时候，我们可以先将npm的下载源更换为国内的淘宝镜像，这样下载的速度会有非常显著的提升。</p>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>我们可以使用npm来安装Hexo，npm是node.js的包管理工具，跟Python的pip工具作用一样，可以用它来安装依赖库和三方工具。在第一次使用npm的时候，我们可以先将npm的下载源更换为国内的淘宝镜像，这样下载的速度会有非常显著的提升。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 <p>安装hexo只需要在命令行中输入以下命令：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<h2 id="创建博客"><a class="header-anchor" href="#创建博客">¶</a>创建博客</h2>
-<blockquote>
+
+<h2 id="创建博客"><a href="#创建博客" class="headerlink" title="创建博客"></a>创建博客</h2><blockquote>
 <p>说明：以下内容基本上来自于Hexo的官方文档，推荐大家阅读官方文档。</p>
 </blockquote>
 <p>我们先通过下面的命令来创建一个专门保存博客项目的文件夹，该命令会从github上克隆博客项目和默认的主题。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+
 <blockquote>
-<p>打开blog文件夹：查看目录结构。<br>
-<code>_config.yml</code>是博客项目的配置文件；<br>
-<code>package.json</code>是项目的依赖项文件；<br>
-<code>scaffolds</code>保存了Markdown文件的模板，也就是向新添加的Markdown文件中默认填充的内容；<br>
-<code>source</code>目录下有一个名为<code>_post</code>的目录，我们稍后可以将编写好的Markdown文件放到该目录，这样就可以利用Hexo将Markdown文件处理成博客的静态页面，生成的静态页面将置于<code>public</code>目录下；<br>
-<code>themes</code>文件夹保存了博客使用的主题。</p>
+<p>打开blog文件夹：查看目录结构。<br><code>_config.yml</code>是博客项目的配置文件；<br><code>package.json</code>是项目的依赖项文件；<br><code>scaffolds</code>保存了Markdown文件的模板，也就是向新添加的Markdown文件中默认填充的内容；<br><code>source</code>目录下有一个名为<code>_post</code>的目录，我们稍后可以将编写好的Markdown文件放到该目录，这样就可以利用Hexo将Markdown文件处理成博客的静态页面，生成的静态页面将置于<code>public</code>目录下；<br><code>themes</code>文件夹保存了博客使用的主题。</p>
 </blockquote>
 <p>然后进入博客项目的目录，安装依赖：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<h2 id="配置博客"><a class="header-anchor" href="#配置博客">¶</a>配置博客</h2>
-<p>我们可以简单的修改博客的配置文件<code>_config.yml</code>，主要修改以下内容：</p>
+
+<h2 id="配置博客"><a href="#配置博客" class="headerlink" title="配置博客"></a>配置博客</h2><p>我们可以简单的修改博客的配置文件<code>_config.yml</code>，主要修改以下内容：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">你的博客标题</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">你的博客副标题</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">你的博客描述</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">你的名字</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-cn</span> <span class="comment"># 语言</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span> <span class="comment"># 时区</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 其他配置可以根据自己的需求和官方文档进行修改。</span></span><br></pre></td></tr></table></figure>
+
 <p>做完上述的操作以后，我们已经可以直接通过下面的命令来生成博客。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
 <p>该命令也可以缩写为：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<h2 id="启动博客"><a class="header-anchor" href="#启动博客">¶</a>启动博客</h2>
-<p>启动博客只需要在命令行中输入以下命令：</p>
+
+<h2 id="启动博客"><a href="#启动博客" class="headerlink" title="启动博客"></a>启动博客</h2><p>启动博客只需要在命令行中输入以下命令：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 <p>该命令也可以缩写为：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>从运行命令的提示信息可以看到，服务器已经运转起并使用了默认的 4000端口，可以通过<code>Ctrl+C</code>来终止服务器的运行。</p>
 <p>如果要修改服务器使用的端口，可以在启动服务器的时候加上<code>-p</code>参数；如果希望服务器启动后，自动打开默认的浏览器访问服务器，可以使用<code>-o</code>参数，如下所示。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -p 8000 -o</span><br></pre></td></tr></table></figure>
-<p>至此，我们可以打开浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> ，如下图所示。<br>
-<img src="./../images/hexo-default-index.png" alt="hexo-defult-index"></p>
-<p>后续可以修改其他的配置，比如主题、评论系统、搜索功能等，也可以通过官方文档来学习更多的Hexo的功能。<br>
-然后可以将编写好的Markdown文件放到source/_posts目录下，Hexo会自动将Markdown文件处理成博客的静态页面，生成的静态页面将置于public目录下。</p>
-<h2 id="部署博客"><a class="header-anchor" href="#部署博客">¶</a>部署博客</h2>
-<p>部署博客只需要在命令行中输入以下命令：</p>
+
+<p>至此，我们可以打开浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> ，如下图所示。<br><img src="/./../images/hexo-default-index.png" alt="hexo-defult-index"></p>
+<p>后续可以修改其他的配置，比如主题、评论系统、搜索功能等，也可以通过官方文档来学习更多的Hexo的功能。<br>然后可以将编写好的Markdown文件放到source&#x2F;_posts目录下，Hexo会自动将Markdown文件处理成博客的静态页面，生成的静态页面将置于public目录下。</p>
+<h2 id="部署博客"><a href="#部署博客" class="headerlink" title="部署博客"></a>部署博客</h2><p>部署博客只需要在命令行中输入以下命令：</p>
 <ol>
 <li>首先，你需要安装hexo-deployer-git插件：</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
 <ol start="2">
 <li>在hexo的_config.yml文件中配置部署信息：</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourusername/yourusername.github.io.git # 仓库地址</span><br><span class="line">  branch: main # 发布分支，旧版本是master，新版本是main</span><br></pre></td></tr></table></figure>
+
 <ol start="3">
 <li>然后，在命令行中输入以下命令部署博客：</li>
 </ol>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br><span class="line">或者</span><br><span class="line">hexo deploy -g  </span><br></pre></td></tr></table></figure>
-<p>接下来在浏览器中输入<a target="_blank" rel="noopener" href="https://yourusername.github.io">yourusername.github.io</a>就能够看到自己的博客，现在全世界的人都可以通过这个URL来访问你的博客。大家是否注意到，访问你博客的这个URL就是刚才我们给仓库起的名字，因为你在GitHub上注册的用户名是独一无二的，所以这个域名也是全世界独一无二的。</p>
-<h2 id="后记"><a class="header-anchor" href="#后记">¶</a>后记</h2>
-<p>本文介绍了如何使用hexo和github pages搭建个人博客，并详细阐述了搭建过程中的一些注意事项。如果你有任何疑问，欢迎在评论区提问。</p>
+
+<p>接下来在浏览器中输入<a target="_blank" rel="noopener" href="https://yourusername.github.io/">yourusername.github.io</a>就能够看到自己的博客，现在全世界的人都可以通过这个URL来访问你的博客。大家是否注意到，访问你博客的这个URL就是刚才我们给仓库起的名字，因为你在GitHub上注册的用户名是独一无二的，所以这个域名也是全世界独一无二的。</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>本文介绍了如何使用hexo和github pages搭建个人博客，并详细阐述了搭建过程中的一些注意事项。如果你有任何疑问，欢迎在评论区提问。</p>
 </div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2025-04-08</span><i class="fa fa-tag"></i><a class="tag" href="/categories/hexo的运用/" title="hexo的运用">hexo的运用 </a><a class="tag" href="/tags/hexo/" title="hexo">hexo </a><a class="tag" href="/tags/github-pages/" title="github pages">github pages </a><i class="fa fa-eye"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv">0</span></span></i></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2025/04/08/运用hexo和github-pages-搭建这个博客/,伍攀.blog,运用hexo和github pages 搭建这个博客,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="pre pagbuttons"><a class="btn" role="navigation" href="/2025/04/11/ExcelTitleHelper%EF%BC%9A%E4%B8%80%E9%94%AE%E7%BB%9F%E4%B8%80%E5%A4%9A%E6%BA%90%E8%A1%A8%E6%A0%BC%E7%9A%84%E6%99%BA%E8%83%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" title="一键统一多源表格的智能解决方案">上一篇</a></li><li class="next pagbuttons"><a class="btn" role="navigation" href="/2025/04/08/hello-world-%E4%B8%AD%E6%96%87/" title="hello-world-中文">下一篇</a></li></ul></div><div id="utter"></div><script>document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('utter');
   if (!container) {
